@@ -5,10 +5,12 @@ export const Main = (props) => {
   return (
     <>
       <div>
-        <Header />
-      </div>
-      <div>
-        <Outlet />;
+        <div>
+          <Header />
+        </div>
+        <div>
+          <Outlet />;
+        </div>
       </div>
     </>
   );
