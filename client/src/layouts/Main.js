@@ -1,14 +1,15 @@
 import { Outlet } from 'react-router';
+import { Header } from '../components';
 
 export const Main = (props) => {
-    
-  return(
-  <>
-  <div>
-      <Header/>
+  return (
+    <>
+      <div>
+        <Header />
       </div>
       <div>
-      <Outlet />;
-</div>
-</>
+        <Outlet />;
+      </div>
+    </>
+  );
 };
