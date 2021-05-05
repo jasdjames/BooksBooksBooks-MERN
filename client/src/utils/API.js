@@ -6,4 +6,5 @@ export const API = {
   search: function (query) {
     return axios.get(BASEURL + query);
   },
+  save: function (book) {},
 };
