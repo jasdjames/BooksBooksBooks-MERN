@@ -9,10 +9,10 @@ export const Header = () => {
       <p>
         {' '}
         <Link to="/">
-          <span>Search |</span>
+          <span className="lead">Search |</span>
         </Link>
         <Link to="/saved">
-          <span>| Save</span>
+          <span className="lead">| Save</span>
         </Link>
       </p>
     </div>

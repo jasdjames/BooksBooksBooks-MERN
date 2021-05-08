@@ -1,18 +1,9 @@
-// import { useEffect, useState } from 'react';
-// import axios from 'axios';
-
 export const SearchBar = (props) => {
-  // const [searchQ, setSearchQ] = useState([])
-
-  // const handleSearch = ({ target }) => {
-  //     const { value } = target;
-
-  // }
   return (
     <div className="container">
-      <form className="border border-info">
+      <form>
         <div className="form-group">
-          <label htmlFor="Search">Search</label>
+          <label htmlFor="Search"></label>
           <input
             {...props}
             type="text"
