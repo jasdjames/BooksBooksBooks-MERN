@@ -16,7 +16,7 @@ A google books search and save library
 ## Installation
 
 The application is deployed to heroku. [Heroku Deployment](https://booksbooksbooks-react.herokuapp.com/)
-[GitHub]('https://github.com/jasdjames/BooksBooksBooks-MERN')
+[GitHub](https://github.com/jasdjames/BooksBooksBooks-MERN)
 
 ## Usage
 
